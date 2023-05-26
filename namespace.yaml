@@ -1,0 +1,4 @@
+kind: Pod
+api-Version: v1
+metadata: 
+  
