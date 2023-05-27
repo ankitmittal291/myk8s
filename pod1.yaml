@@ -1,0 +1,10 @@
+---
+kind: Pod
+apiVersion: v1
+metadata:
+  name: mypod
+spec:
+  containers:
+    - name: c01
+      image: httpd
+      command: ["/bin/bash","-c","echo Ankit; sleep 10"]
