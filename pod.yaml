@@ -7,4 +7,4 @@ spec:
   containers:
     - name: c01
       image: nginx
-      command: ["/bin/bash","-c","echo Ankit; sleep 100"]
+      command: ["/bin/bash","-c","echo Ankit; sleep 10"]
