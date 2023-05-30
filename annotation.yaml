@@ -1,0 +1,12 @@
+---
+kind: Pod
+apiVersion: v1
+metadata:
+  name: mypod1
+  annotations:
+    description: Creating a containers inside a Pod
+spec:
+  containers:
+  - name: c01
+    image: nginx
+    command: ["/bin/bash", "-c", "while true; do echo Ankit you are the best; sleep 10; done"]
