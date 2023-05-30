@@ -1,6 +1,6 @@
 ---
 kind: Pod
-api-Version: v1
+apiVersion: v1
 metadata:
   name: mypodvar
 spec:
