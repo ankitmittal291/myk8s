@@ -1,0 +1,13 @@
+---
+kind: Pod
+api-Version: v1
+metadata:
+  name: mypodvar
+spec:
+  containers:
+  - name: c01
+    image: nginx
+    command: ["/bin/bash", "-c", "while true; do echo Ankit you are great; sleep 1500; done"]
+    env:
+    - name: MyName
+      value: Ankit
