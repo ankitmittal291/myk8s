@@ -4,4 +4,4 @@ apiVersion: v1
 metadata:
   name: d6ddb44ad42c.mylabserver.com
   labels:
-    dev=testing
+    dev: testing
