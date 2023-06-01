@@ -1,0 +1,13 @@
+---
+kind: Pod
+apiVersion: v1
+metadata:
+  name: nodeselector
+spec:
+  nodeSelector:
+    app: testing
+  containers:
+    - name: c01
+      image: nginx
+      command: ["/bin/bash", "-c", "sleep 2000"]
+    
