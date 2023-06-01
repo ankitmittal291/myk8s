@@ -1,0 +1,12 @@
+---
+kind: Pod
+apiVersion: v1
+metadata:
+  name: mypodwithlabels
+  labels:
+    app: testing
+spec:
+  containers:
+  - name: c01
+    image: nginx
+    command: ["/bin/bash", "-c", "sleep 1500"]
